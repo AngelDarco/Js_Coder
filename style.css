@@ -1,0 +1,48 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: #333;
+}
+
+h1{
+    text-align: center;
+}
+
+.container{
+    width: 100%;
+    height: 60vh;
+    border: 1px solid green;
+    margin-top: 10%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-flow: column nowrap;
+    color: #fff;
+}
+
+input{
+    outline: none;
+    font-size: 1.2rem;
+    color: inherit;
+}
+
+#codertxt{
+    width: 60%;
+    height: 50px;
+    text-align: center;
+}
+
+#coderbtn{
+    padding: 1% 3%;
+    font-size: 1rem;
+    border-radius: 5%;
+    margin: 2% 0 10%;  
+    color: #89dd0b; 
+}
+
+#result{
+    width: 60%;
+    height: auto;
+    padding: 1%;
+}
