@@ -7,6 +7,9 @@
 
 h1{
     text-align: center;
+    margin-top: 2%;
+    color: #fff;
+    text-shadow: 0 0 10px #89dd0b;
 }
 
 .container{
@@ -34,6 +37,7 @@ input,p{
 #codertxt{
     width: 60%;
     height: 50px;
+    text-transform: uppercase;
 }
 
 .btncontent{
@@ -55,4 +59,23 @@ input,p{
     height: 50%;
     padding: 3%;
     border: 1px solid rebeccapurple;
+}
+
+#result:active::after{
+    content: 'copied';
+    display: flex;
+    width: fit-content;
+    position: relative;
+    top: 10%;
+    left: 100%;
+
+    font-size: 1.3rem;
+    background: #fafafa96;
+    border: 1px solid #89dd0b;
+    padding: 2%;
+    border-radius: 10px;
+    color: #1b1a1a;
+    transition-duration: 10s;
+    align-items: center;
+    justify-content: center;
 }
