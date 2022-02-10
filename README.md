@@ -1,0 +1,4 @@
+# Coder
+
+### Dear friends:
+#### I am Gaius Julius Caesar, Roman Emperor; but you can call me Caesar. I've been sending my messages on military strategy for a long time using a method that consists of the following: I write a sentence and then I replace each letter with the corresponding letter three spaces to the right. For example, ADA would replace it with DGD; and EDU by HGX. But when the messages are long the encoding is a pain, and besides, always doing it with an offset of 3 spaces is not very safe. I need an encoder and decoder that, based on a message and an offset number (positive or negative), return the encrypted or decrypted message, respectively. I will only work with capital letters, and the symbols, numbers and spaces I do not need to encode or decode. Could you help me?
